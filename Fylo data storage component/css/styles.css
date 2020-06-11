@@ -35,7 +35,7 @@ main {
     height: 30vh;
     border-radius: 15px;
     border-top-right-radius: 120px;
-    margin: 23vh auto 20px auto;
+    margin: 15vh auto 20px auto;
     
 }
 .container-logo {
@@ -75,7 +75,7 @@ main {
     width: 80%;
     height: 25vh;
     border-radius: 15px;
-    margin: 0px auto 15vh auto;
+    margin: 0px auto auto auto;
     /* border: 1px solid yellow; */
 }
 .text-information{
