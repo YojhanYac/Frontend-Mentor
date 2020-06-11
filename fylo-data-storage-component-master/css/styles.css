@@ -130,11 +130,11 @@ main {
     color: white;
 }
 .description-bar {
-    position: absolute;
+    /* position: absolute;
     background: white;
     width: 43%;
     height: 10vh;
-    border-radius: 15px;
+    border-radius: 15px; */
     /* margin: 0px auto 0px auto; */
     /* top: 73%;
     left: 28.5%; */
