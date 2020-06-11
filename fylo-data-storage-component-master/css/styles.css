@@ -1,0 +1,141 @@
+/* *, *::after, *::before {
+    box-sizing: border-box;
+} */
+
+html, body {
+    width: 100vw;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+main {
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+}
+.functions-web {
+    background: #1e2c69;
+    width: 80%;
+    height: 30vh;
+    border-radius: 15px;
+    border-top-right-radius: 120px;
+    margin: 23vh auto 20px auto;
+    
+}
+.container-logo {
+    /* background: cadetblue; */
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    margin-top: 2vh;
+}
+.logo{
+    width: 25vh;
+    /* border: 2px violet solid; */
+    margin-top: 4vh;
+    margin-left: 4.5vh;
+}
+.container-icon {
+    /* border: 2px solid green; */
+    background: rgb(20, 2, 85);
+    display: inline-block;
+    width: 7vh;
+    height: 7vh;
+    text-align: center;
+    margin-left: 4.5vh;
+    border-radius: 20%;
+}
+.icon {
+    height: 50%;
+    /* border: 2px solid pink; */
+    margin: 25% auto 25% auto;
+}
+
+
+
+.information-bar {
+    background: #1e2c69;
+    width: 80%;
+    height: 25vh;
+    border-radius: 15px;
+    margin: 0px auto 15vh auto;
+    /* border: 1px solid yellow; */
+}
+.text-information{
+    font-size: 18px;
+    /* border: 1px solid red; */
+    color: white;
+    text-align: center;
+    margin: 6% 5% 0px 5%;
+    padding-top: 25px;
+}
+
+.container-charge-bar {
+    /* border: 1px solid yellow; */
+    background: rgb(20, 6, 99);
+    width: 85%;
+    height: 20px;
+    border-radius: 10px;
+    margin: 3% auto 1% auto;
+    display: flex;
+    align-items: center;
+}
+.charge-bar {
+    /* border: 1px solid yellow; */
+    background-image: linear-gradient(to right, #e5839b, #ed75a5, #f068b5, #ec5dca, #e057e3);
+    width: 70%;
+    height: 15px;
+    border-radius: 7px;
+    margin-left: 2.5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.charge-bar-circle {
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 6.25px;
+    background: white;
+    margin-right: 2.5px;
+}
+.leyend-charge-bar-container {
+    width: 85%;
+    height: 20px;
+    /* border: 1px solid red; */
+    margin: 1.5% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.leyend-charge-bar {
+    /* border: 1px solid white; */
+    display: inline-block;
+    margin: 0px 0px;
+    color: white;
+}
+.description-bar {
+    position: absolute;
+    background: white;
+    width: 43%;
+    height: 10vh;
+    border-radius: 15px;
+    /* margin: 0px auto 0px auto; */
+    /* top: 73%;
+    left: 28.5%; */
+}
