@@ -10,6 +10,7 @@ html, body {
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin: 50px auto;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
@@ -39,8 +40,6 @@ main {
     
 }
 .container-logo {
-    /* background: cadetblue; */
-    /* border: 2px solid red; */
     display: inline-block;
     width: 100%;
     height: 50%;
@@ -48,13 +47,11 @@ main {
 }
 .logo{
     width: 25vh;
-    /* border: 2px violet solid; */
     margin-top: 4vh;
     margin-left: 4.5vh;
 }
 .container-icon {
-    /* border: 2px solid green; */
-    background: rgb(20, 2, 85);
+    background: #0d112e;
     display: inline-block;
     width: 7vh;
     height: 7vh;
@@ -64,23 +61,21 @@ main {
 }
 .icon {
     height: 50%;
-    /* border: 2px solid pink; */
     margin: 25% auto 25% auto;
 }
 
 
 
 .information-bar {
+    position: relative;
     background: #1e2c69;
     width: 80%;
-    height: 25vh;
+    height: 175px;
     border-radius: 15px;
     margin: 0px auto auto auto;
-    /* border: 1px solid yellow; */
 }
 .text-information{
     font-size: 18px;
-    /* border: 1px solid red; */
     color: white;
     text-align: center;
     margin: 6% 5% 0px 5%;
@@ -88,8 +83,7 @@ main {
 }
 
 .container-charge-bar {
-    /* border: 1px solid yellow; */
-    background: rgb(20, 6, 99);
+    background: #0d112e;
     width: 85%;
     height: 20px;
     border-radius: 10px;
@@ -98,7 +92,6 @@ main {
     align-items: center;
 }
 .charge-bar {
-    /* border: 1px solid yellow; */
     background-image: linear-gradient(to right, #e5839b, #ed75a5, #f068b5, #ec5dca, #e057e3);
     width: 70%;
     height: 15px;
@@ -118,24 +111,103 @@ main {
 .leyend-charge-bar-container {
     width: 85%;
     height: 20px;
-    /* border: 1px solid red; */
     margin: 1.5% auto;
     display: flex;
     justify-content: space-between;
 }
 .leyend-charge-bar {
-    /* border: 1px solid white; */
     display: inline-block;
     margin: 0px 0px;
     color: white;
 }
 .description-bar {
-    /* position: absolute;
+    right: 20%;
+    bottom: -50px;
+    position: absolute;
     background: white;
-    width: 43%;
-    height: 10vh;
-    border-radius: 15px; */
-    /* margin: 0px auto 0px auto; */
-    /* top: 73%;
-    left: 28.5%; */
+    width: 60%;
+    height: 100px;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text-data-storage {
+    font-size: 55px;
+    display: inline-block;
+    margin: 0px 0px;
+    color: black;
+}
+.text-description{
+    display: inline-block;
+}
+
+@media (min-width: 850px){
+    .container{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .functions-web {
+        width: 30%;
+        margin: 0 1% 300px 0;
+    }
+    .information-bar{
+        width: 50%;
+        margin: 0 0 300px 1%;
+    }
+    .logo {
+        width: 50%;
+    }
+    .container-icon {
+        margin-left: 2vw;
+        width: 5vw;
+        height: 5vw;
+    }
+    .text-information{
+        padding-top: 0px;
+        margin: 4% 2% 0px 9%;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .container-charge-bar {
+        margin: 3% auto 3% auto;
+    }
+    .description-bar {
+        right: 7%;
+        top: -50px;
+        position: absolute;
+        background: white;
+        width: 30%;
+        height: 70px;
+        border-radius: 15px;
+        border-bottom-right-radius: 0px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .information-bar {
+        height: 150px;
+    }
+    .triangle {
+        height: 0px;
+        width: 0px;
+        border-right: 12px solid white;
+        border-top: 12px solid white;
+        border-left: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        right: 7%;
+        top: 19px;
+        position: absolute;
+    }
+    main {
+        background-color: #0c122c;
+        background-image: url("../images/bg-desktop1.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position-y: 100%;
+        background-size: 100% 53%;
+    }
 }
